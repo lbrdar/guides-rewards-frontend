@@ -1,0 +1,40 @@
+.Codes {
+    padding: 20px;
+    font-size: 16px;
+}
+
+.codes-title {
+    text-align: left;
+    padding-left: 15px;
+    font-size: 30px;
+    font-family: 'Roboto, sans-serif', sans-serif;
+    width: 100%;
+}
+
+.codes-subtitle {
+    text-align: center;
+    padding-left: 10px;
+    font-size: 25px;
+    font-family: 'Roboto, sans-serif', sans-serif;
+    width: 100%;
+}
+
+.codes-text {
+    padding: 0 5px 0 15px;
+    width: calc(50% - 20px);
+    display: inline-block;
+    vertical-align: middle;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.codes-container {
+    width: 60%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.codes-input {
+    width: calc(50% - 20px);
+    margin: 0 10px;
+}

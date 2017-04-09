@@ -1,0 +1,29 @@
+.Register {
+    padding: 20px;
+}
+
+.register-container {
+    width: 60%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.register-title {
+    text-align: left;
+    padding-left: 15px;
+    font-size: 30px;
+    font-family: 'Roboto, sans-serif', sans-serif;
+    width: 100%;
+}
+
+.register-text {
+    padding: 10px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.register-input {
+    width: calc(50% - 20px);
+    margin: 0 10px;
+}
+

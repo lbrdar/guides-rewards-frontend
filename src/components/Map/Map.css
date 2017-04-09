@@ -1,0 +1,26 @@
+.mapWrapper {
+    margin: 10px calc(10% / 2);
+    width: 55%;
+    height: 70vh;
+    position: relative;
+    display: inline-block;
+}
+.mapContainerStyle {
+    margin: 5px auto;
+}
+.map {
+    width: 55% !important;
+    display: inline-block;
+}
+.infoWindow {
+    color: black;
+}
+.infoWindow-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+.infoWindow-text {
+    font-size: 13px;
+    margin: 5px 0;
+}

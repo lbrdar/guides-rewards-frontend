@@ -1,0 +1,73 @@
+.Header {
+    background-color: #1B5E20;
+    height: 66px;
+    -webkit-box-shadow: 0px 0px 20px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 13px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 13px rgba(0,0,0,0.75);
+}
+
+.logo-container {
+    display: inline-block;
+}
+
+.logo {
+    height: 80px;
+    width: 150px;
+}
+
+.header-menu {
+    display: inline-flex;
+    width: calc(100% - 150px - 135px);
+    vertical-align: bottom;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 30px;
+}
+
+.header-link {
+    flex: 1;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.header-active {
+    color: #3E2723;
+    background-color: #388E3C;
+}
+
+.account {
+    width: 130px;
+    color: white;
+    display: inline-block;
+    text-align: right;
+    position: relative;
+    bottom: 40px;
+    right: 5px;
+}
+.account-info {
+    font-size: 13px;
+}
+.account-link {
+    font-size: 14px;
+    color: #FFAB00;
+}
+.account-active {
+    color: #FF6F00;
+}
+
+
+@media screen and (max-width: 1188px){
+    .Header {
+        height: auto;
+    }
+    .header-menu {
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .header-link {
+        font-size: 14px !important;
+    }
+}

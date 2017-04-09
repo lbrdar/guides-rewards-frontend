@@ -1,0 +1,95 @@
+.Landmarks {
+    padding: 20px;
+    font-size: 16px;
+    background: url('../../../public/landmarks_background.jpg') no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.landmarks-title {
+    text-align: left;
+    padding-left: 15px;
+    font-size: 30px;
+    font-family: 'Roboto, sans-serif', sans-serif;
+    width: 100%;
+}
+
+.landmarks-subtitle {
+    text-align: center;
+    padding-left: 10px;
+    font-size: 25px;
+    font-family: 'Roboto, sans-serif', sans-serif;
+    width: 100%;
+}
+
+.landmarks-text {
+    padding: 0 5px 0 15px;
+    width: calc(50% - 20px);
+    display: inline-block;
+    vertical-align: middle;
+    text-align: justify;
+    font-size: 18px;
+}
+.full {
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.uploadForm {
+    display: inline-block;
+    width: 50%;
+}
+.fileUpload {
+    padding: 5px;
+    font-size: 15px;
+    display: inline-block;
+    z-index: 2 !important;
+    margin-bottom: 10px;
+    width: 80%;
+}
+.uploadButton {
+    display: inline-block;
+    width: 80%;
+}
+
+.landmarkContainer {
+    padding: 10px;
+    margin: 5px 10px;
+    background-color: rgba(256,256,256, 0.7) !important;
+}
+.landmarkTextContainer {
+    display: inline-block;
+    width: 60%;
+}
+.landmarkImg {
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+}
+.landmarkInfo {
+    display: inline-block;
+    width: 60%
+}
+.landmarkWebSite {
+    display: block;
+    font-size: 16px;
+}
+
+.landmarks-loader {
+    display: inline-block;
+    width: 50% !important;
+    margin: 0 auto;
+}
+
+.nearByContainer {
+    text-align: left;
+    display: inline-block !important;
+}
+.nearByList {
+    width: 35%;
+    max-height: 70vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    float: left;
+}
