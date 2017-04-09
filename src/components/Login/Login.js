@@ -48,7 +48,7 @@ class Login extends Component {
     if (valid) {
       const { email, password } = this.state;
 
-      window.fetch('http://6c9b612a.ngrok.io/api/loginusers', {
+      window.fetch('http://f2189154.ngrok.io/api/loginusers', {
         method: 'POST',
         headers: new Headers({
           'Accept': 'application/json',

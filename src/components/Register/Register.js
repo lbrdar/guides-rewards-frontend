@@ -65,7 +65,7 @@ class Register extends Component {
     if (valid) {
       const { username, email, pass1 } = this.state;
 
-      window.fetch('http://6c9b612a.ngrok.io/api/registers', {
+      window.fetch('http://f2189154.ngrok.io/api/registers', {
         method: 'POST',
         headers: new Headers({
           'Accept': 'application/json',

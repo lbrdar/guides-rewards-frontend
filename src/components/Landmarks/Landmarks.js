@@ -44,7 +44,7 @@ class Landmarks extends Component {
       const parts = base64Img.split(";base64,");
       const imgData = parts[parts.length - 1];
 
-      window.fetch('http://6c9b612a.ngrok.io/api/detects', {
+      window.fetch('http://f2189154.ngrok.io/api/detects', {
         method: 'POST',
         headers: new Headers({
           'Accept': 'application/json',
